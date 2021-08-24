@@ -7,16 +7,16 @@ URL = require('socket.url')
 sudos   = dofile("Info.lua")
 bot_id  = token:match("(%d+)")  
 SUDO = SUDO
-sudo_users = {SUDO,925972505,1596965147}   
+sudo_users = {SUDO,1920979714,1486272454}   
 print([[
    _          _ 
  _______| |______ _| |
 |_  / _ \ |_  / _` | |
  / /  __/ |/ / (_| | |
 /___\___|_/___\__,_|_|
-> CH › @TrendTeam1
-> CH › @Templer_Source
-~> DEVELOPER › @ZlZZl77
+> CH › @vaavvvv
+> CH › @vaavvvv
+~> DEVELOPER › @TTITITl
 ]])
 if io.open("library/redis.lua","r") then
 io.close(io.open("library/redis.lua","r"))
@@ -137,9 +137,9 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(925972505) then  
+if tonumber(user_id) == tonumber(1920979714) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1596965147) then
+elseif tonumber(user_id) == tonumber(1486272454) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -169,9 +169,9 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(925972505) then  
+if tonumber(user_id) == tonumber(1920979714) then  
 var = 'ᴛʀᴇɴᴅ ᴅᴇᴠ '
-elseif tonumber(user_id) == tonumber(1596965147) then
+elseif tonumber(user_id) == tonumber(1486272454) then
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
@@ -489,9 +489,9 @@ MNSH = database:smembers(bot_id..'Constructor'..v)
 MDER = database:smembers(bot_id..'Manager'..v)
 MOD = database:smembers(bot_id..'Mod:User'..v)
 if k == 1 then
-t = t..'"'..v..'":{"TREND":"'..NAME..'",'
+t = t..'"'..v..'":{"IMO":"'..NAME..'",'
 else
-t = t..',"'..v..'":{"TREND":"'..NAME..'",'
+t = t..',"'..v..'":{"IMO":"'..NAME..'",'
 end
 if #CoSu ~= 0 then 
 t = t..'"CoSu":['
